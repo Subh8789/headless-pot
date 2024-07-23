@@ -1,14 +1,15 @@
 /*---herobanner---*/
 
+/*
 *{
     font-family: "Honeywell Sans", Helvetica, Arial, sans-serif !important;
-} 
+}
 
 @font-face {
     font-family: "Honewell Sans";
     src: url('../../font/HoneywellSans-Book.otf') format('otf');
 }
-
+*/
 .text-red{
     color: #FF0000;
    

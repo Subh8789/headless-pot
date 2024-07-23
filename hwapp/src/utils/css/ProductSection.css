@@ -21,7 +21,7 @@
   color: rgb(48, 48, 48);
   font-size: 16px;
   font-weight: 800;
-  font-family: HoneywellSans-Extrabold;
+ /* font-family: HoneywellSans-Extrabold; */
   padding-bottom: 10px;
   width: 150px;
   margin-right: 5rem;
@@ -66,13 +66,13 @@
 
 .dropdown-title {
   font-weight: 700;
-  font-family: HoneywellSans-Medium;
+/*  font-family: HoneywellSans-Medium; */
   text-transform: uppercase;
   width: 15rem;
 }
 
 .clear-button{
-  font-family: HoneywellSans-Book;
+ /* font-family: HoneywellSans-Book; */
   text-transform: capitalize;
   margin-right: -3px;
 }
@@ -113,7 +113,7 @@
   border-bottom-color: rgb(155,155,155);
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  font-family: HoneywellSans-Book;
+ /* font-family: HoneywellSans-Book; */
   font-size: 18px;
   font-weight: 300;
   padding-left: 18px;
@@ -123,7 +123,7 @@
 }
 
 .num-of-products-text{
-  font-family: HoneywellSans-Extrabold;
+/*  font-family: HoneywellSans-Extrabold; */
   font-size: 16px;
   color: rgb(33, 37, 41);
   font-weight: 800;
@@ -150,7 +150,7 @@
   margin-right: 80rem;
   width: 130px;
   color: rgb(33, 37, 41);
-  font-family: HoneywellSans-Book;
+ /* font-family: HoneywellSans-Book; */
   font-size: 14px; 
   font-weight: 300;
 }
@@ -170,13 +170,13 @@
   flex-grow: 1; /* Takes up the remaining space */
   width: 90px;
   color:rgb(33, 37, 41);
-  font-family: HoneywellSans-Book;
+ /* font-family: HoneywellSans-Book; */
   font-weight: 300;
   
 }
 
 .details-link {
-  font-family: HoneywellSans-Bold;
+ /* font-family: HoneywellSans-Bold; */
   color: rgb(0, 113, 179);
   text-decoration: none; /* Remove underline */
   font-size: 14px;
@@ -193,7 +193,7 @@
 
 .desc-2{
   font-size: 22px;
-  font-family: HoneywellSans-Bold;
+  /*font-family: HoneywellSans-Bold; */
   color: rgb(0, 113, 179);
   margin-top: -0.5px;
 }
@@ -220,7 +220,7 @@
   border-color: rgb(0, 123, 194); 
   border-style: solid; 
   border-radius: 4px; 
-  font-family: HoneywellSans-Bold;
+/*  font-family: HoneywellSans-Bold; */
   color: rgb(0, 123, 194);
   margin-top: 30px;
   margin-left: 300px;
