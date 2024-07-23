@@ -4,11 +4,7 @@ import HomeSection2 from "../components/HomeSection2";
 import ImageGrid from "../components/Section-4";
 import ImageBanner from "../components/Section-5";
 
-import { useEffect } from "react";
-import axios from "axios";
 import useContentStackApi from "../customHook/useContenStackApi";
-import Pdp from "../components/Pdp";
-import useDownloader from "../customHook/useDownloader";
 
 
 export default function Home() {
@@ -18,10 +14,6 @@ export default function Home() {
 
   console.log("contenapidatahook", data);
 
-  function FileDownload() {
-    
-     useDownloader();
-  }
 
   
   return (

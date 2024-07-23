@@ -1,7 +1,9 @@
  
-
+/*
  const  baseurl = "https://buildingsbt.stage.honeywell.com";
  const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
+ */
+
 /*
 const contactApi = corsAnywhere + baseurl + "/pif/api/account/v1/get-contact-details?appId=239";
 const detailsApi = corsAnywhere + baseurl + "/pif/api/session/details?appId=239";

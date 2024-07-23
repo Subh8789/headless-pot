@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Home from '../utils/icons/home.svg';
 import CaratRight from '../utils/icons/caratright.svg';
 //import { Link } from 'react-router-dom';

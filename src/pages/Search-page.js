@@ -3,7 +3,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import SearchBar2 from "../components/SearchBarB";
 import ProductSection from "../components/ProductSection";
 
-const  Search_Page = () => {
+const  SearchPage = () => {
     return(
         <>
         <Breadcrumb></Breadcrumb>
@@ -13,4 +13,4 @@ const  Search_Page = () => {
         </>
     )
 }
-export default Search_Page;
+export default SearchPage;

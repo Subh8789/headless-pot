@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const SearchBar = ({setToggleSearchBox}) => {
 
-    const [searchTerm, setSearchTerm] = useState('');
+    //const [searchTerm, setSearchTerm] = useState('');
 
     const [searchPlaceHolder, setSearchPlaceHolder] = useState('Search for a Product (i.e. Cameras)');
   

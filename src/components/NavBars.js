@@ -31,7 +31,7 @@ const Header = ({detailData,contactData,error}) => {
 
   const [selectedAccount, setSelectedAccount] = useState(localStorage.getItem('selectedAccount'));
 
-
+  console.log("signedin", signedIn)
   // Toggle dropdown visibility
   const toggleDropdown = (e) => {
     e.stopPropagation()

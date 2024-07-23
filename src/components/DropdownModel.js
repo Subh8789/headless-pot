@@ -17,51 +17,51 @@ function DropdownModel({ signedin,username,setSignedIn }) {
                 <ul>
                   { !signedin && <> <li className="list-item">
                         <span className="person-icon"></span>
-                        <a >Create an Account</a>
+                        <Link to="" >Create an Account</Link>
                     </li>
                     <li className="list-item">
                         <span className="document-icon"></span>
-                        <a >My Legacy Account</a>
+                        <Link to="">My Legacy Account</Link>
                     </li>
                    </>}
                     { signedin && <> 
                         <li className="list-item">
                         <span className="person-icon"></span>
-                        <a >My Account</a>
+                        <Link to="">My Account</Link>
                     </li>
                     <li className="list-item">
                         <span className="document-icon"></span>
-                        <a >My Profile</a>
+                        <Link to="">My Profile</Link>
                     </li>
                     <li className="list-item">
                         <span className="person-icon"></span>
-                        <a >My Account</a>
+                        <Link to="">My Account</Link>
                     </li>
                     <li className="list-item">
                         <span className="document-icon"></span>
-                        <a >My Profile</a>
+                        <Link to="">My Profile</Link>
                     </li>
                     <li className="list-item">
                         <span className="person-icon"></span>
-                        <a >My Account</a>
+                        <Link to="">My Account</Link>
                     </li>
                     <li className="list-item">
                         <span className="document-icon"></span>
-                        <a >My Profile</a>
+                        <Link to="">My Profile</Link>
                     </li>
                     <li className="list-item">
                         <span className="person-icon"></span>
-                        <a >My Account</a>
+                        <Link to="">My Account</Link>
                     </li>
                     <li className="list-item">
                         <span className="document-icon"></span>
-                        <a >My Profile</a>
+                        <Link to="">My Profile</Link>
                     </li>
                     </>}
                 </ul>
             </div>
             {<div className="card-footer">
-                <div onClick={signOutHandler} className='btn-signin'><Link to=''>{signedin ? "SIGN OUT" : "Sign in to MyBuildings"}</Link></div>
+                <div onClick={signOutHandler} className='btn-signin'><Link to="">{signedin ? "SIGN OUT" : "Sign in to MyBuildings"}</Link></div>
             </div>}
         </div>
     );

@@ -1,5 +1,5 @@
 import './App.css';
-import Search_Page from './pages/Search-page.js';
+import SearchPage from './pages/Search-page.js';
 import Layout from './Layout/Layout.js';
 import {Route, RouterProvider, createRoutesFromElements,createBrowserRouter} from 'react-router-dom'
 import Home from './pages/Home.js';
@@ -9,9 +9,7 @@ import useApicall from './customHook/useApicall.js';
 import Pdp from './components/Pdp.js';
 
 function App() {
- // const [detailData, setDetailData] = useState([]);
- // const [contactData, setContactData] = useState([]);
- // const [error,setError] = useState(null);
+
 
   const {detailData, contactData, error} = useApicall();
 
@@ -48,7 +46,7 @@ function App() {
     createRoutesFromElements(
       <Route path='/' element={<Layout detailData={detailData} contactData={contactData} error={error}/>}>
         <Route index element={<Home/>}/>
-        <Route path='search' element={<Search_Page/>}/>
+        <Route path='search' element={<SearchPage/>}/>
          
         <Route path='search/:pdpid' element={<Pdp/>}></Route>
         <Route path='*' element={<NotFound error="404 page not found"/>}/>
